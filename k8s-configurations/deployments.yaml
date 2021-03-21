@@ -1,0 +1,113 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: frontend
+  namespace: default
+  labels:
+    run: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: frontend
+  template:
+    metadata:
+      labels:
+        run: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: gcr.io/trialwork/frontdockimg:v1
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+
+---
+
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: api
+  namespace: default
+  labels:
+    run: api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: api
+  template:
+    metadata:
+      labels:
+        run: api
+    spec:
+      containers:
+        - name: api
+          image: gcr.io/trialwork/backdockimg:v1
+          env:
+            - name: APP_CONFIG
+              value: "development"
+            - name: DATABASE_URL
+              value: "postgresql://postgres@database:5432/reactdb"
+            - name: TEST_DATABASE_URL
+              value: "postgresql://postgres@database:5432/testdb"
+            - name: APP_SECRET
+              value: "iigMnxLgWdFJppmd3JgZRzOUYLgmjaXX"
+            - name: REQUESTS_ORIGIN
+              value: "*"
+          ports:
+            - containerPort: 5000
+              protocol: TCP
+
+
+---
+
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: database
+  namespace: default
+  labels:
+    run: database
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: database
+  template:
+    metadata:
+      labels:
+        run: database
+    spec:
+      containers:
+        - name: database
+          image: gcr.io/trialwork/dbdockimg:v1
+          ports:
+            - containerPort: 5432
+              protocol: TCP
+
+# ---
+
+# kind: Deployment
+# apiVersion: apps/v1
+# metadata:
+#   name: safeboda-go-deployment
+#   namespace: default
+#   labels:
+#     run: safeboda-go-deployment
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       run: safeboda-go-deployment
+#   template:
+#     metadata:
+#       labels:
+#         run: safeboda-go-deployment
+#     spec:
+#       containers:
+#         - name: safeboda-go-deployment
+#           image: gcr.io/flowing-digit-260208/safeboda-go:v1
+#           ports:
+#             - containerPort: 3000
+#               protocol: TCP

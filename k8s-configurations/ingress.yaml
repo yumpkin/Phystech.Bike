@@ -1,0 +1,87 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: ingress
+  namespace: default
+spec:
+  rules:
+    - host: frontend.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: frontend
+              servicePort: 80
+            path: /
+    - host: api.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: api
+              servicePort: 5000
+            path: /
+    - host: database.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: database
+              servicePort: 5432
+            path: /
+    - host: prometheus.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: prometheus-server
+              servicePort: 80
+            path: /
+    - host: grafana.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: grafana
+              servicePort: 80
+            path: /
+    - host: api.physbike.me
+      http:
+        paths:
+          - backend:
+              serviceName: safeboda-service
+              servicePort: 3000
+            path: /metrics
+  tls:
+    - hosts:
+        - frontend.physbike.me
+        - api.physbike.me
+        - database.physbike.me
+        - prometheus.physbike.me
+        - grafana.physbike.me
+      secretName: balena-certs
+
+# ---
+
+#   apiVersion: extensions/v1beta1
+#   kind: Ingress
+#   metadata:
+#     annotations:
+#       kubernetes.io/ingress.class: nginx
+#       nginx.ingress.kubernetes.io/ssl-redirect: "true"
+#       prometheus.io/scrape: "true"
+#       prometheus.io/port: "10254"
+#       enable-vts-status: "true"
+#     name: ingress
+#     namespace: prometheus
+#   spec:
+#     rules:
+#       - host: prometheus.physbike.me
+#         http:
+#           paths:
+#             - backend:
+#                 serviceName: prometheus-service
+#                 servicePort: 9090
+#               path: /
+#     tls:
+#       - hosts:
+#           - prometheus.physbike.me
+#         secretName: balena-certs

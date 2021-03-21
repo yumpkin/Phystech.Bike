@@ -1,0 +1,70 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: frontend
+  namespace: default
+  labels:
+    run: frontend
+spec:
+  ports:
+      - protocol: TCP
+        port: 80
+        targetPort: 3000
+  selector:
+    run: frontend
+  type: ClusterIP
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: api
+  namespace: default
+  labels:
+    run: api
+spec:
+  ports:
+      - protocol: TCP
+        port: 5000
+        targetPort: 5000
+  selector:
+    run: api
+  type: ClusterIP
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: database
+  namespace: default
+  labels:
+    run: database
+spec:
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+  clusterIP: None
+  selector:
+    run: database
+  # type: ClusterIP
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: safeboda-service
+  namespace: default
+  labels:
+    run: safeboda-service
+spec:
+  ports:
+      - protocol: TCP
+        port: 3000
+        targetPort: 3000
+  selector:
+    run : safeboda-go-deployment
+  type: ClusterIP
