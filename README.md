@@ -2,17 +2,13 @@
 <h3 align="center"> A cool bike sharing service for students</h3>
 
 <p align="center"> 
-<img src="gif/top_up.gif" alt="Topping up" height="382px">
+<img src="gif/tu.gif" alt="Topping up" height="382px">
 </p>
 
 <p>I decided to make a cool bike sharing service for my university without having people to get involved into the process</p>
-<h2> Topping up </h2>
-<img src="gif/tu.gif" alt="Topping up" height="382px">
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-<h2> Gifting a ride </h2>
+
 <img src="gif/gift.gif" alt="Gifting" height="382px">
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-<h2> Personal Settings </h2>
 <img src="gif/settings.gif" alt="Setting things up" height="382px">
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
