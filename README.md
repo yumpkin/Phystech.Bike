@@ -8,8 +8,9 @@
 <p>I decided to make a cool bike sharing service for my university, so that the whole process is automated without any human factor to be involved, this insures speed, reliability, and also provides a more enjoyable modern experience in total. After struggling personally and having kind of unpleasant experience each time I rent a bike as usual, I felt the process can be done in a much better way, and decided to do it in my own style and vision. 
 If you have any cool Idea that we could work on, or something you wish to add, would be glad to hear.
 <br> 
-<br> The project is still in progress, the current technincal content of this repo is the first base version, many things have been changed since then.
-<br> I will be revealing everything at once later **at the right time**, for that stay tuned !
+<br> The project is in progress, the current content of this repo is the first base version, many things have been changed since then.
+  
+<br> I will be revealing everything at once later at the right time, for that stay tuned !
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
