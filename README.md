@@ -22,10 +22,11 @@
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-<h2> Credits:
+<h2> Credits:</h2>
+<p>
   <br>
-  To my talented architect sister for making the sketch design for univeristy building, all rights are reserved for her.
-</h2>
+  To my talented architect sister for making the sketch design for univeristy building, in about 30 mins, rights are reserved for her.
+</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
