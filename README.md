@@ -9,7 +9,7 @@
 If you have any cool Idea that we could work on, or something you wish to add, would be glad to hear.
 <br> 
 <br> The project is still in progress, the current content of this repo is actually the first base version, many things have been changed since then.
-<br> I will be revealing everything at once later at the right time, for that stay tuned !
+<br> I will be revealing everything at once later **at the right time**, for that stay tuned !
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
