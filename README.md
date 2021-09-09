@@ -19,8 +19,8 @@ If you have any cool Idea that we could work on, or something you wish to add, w
 <ul>
   <li><b>One button login using Phystech email only.</li>
   <li><b>Showcase gallery for all types of bikes.</li>
-  <li><b>Account topup using credit card and telegram pay, also using crypto soon.</li>
-  <li><b>Scheduling managment</li>
+  <li><b>Account topup using credit card and telegram pay, also using crypto (soon).</li>
+  <li><b>Scheduling managment and Rush hour prediciton (ML methods)</li>
   <li><b>Send rides to friends as a gift</li>
   <li><b>Track the bikes and save the route of your trips</li>
 </ul>
