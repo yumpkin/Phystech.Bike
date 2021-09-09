@@ -20,7 +20,11 @@
   <li><b>Send rides to friends as a gift</li>
   <li><b>Track the bikes and save the route of your trips</li>
 </ul>
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+<h2> Credits:
+  <br>
+  To my talented architect sister for making the sketch design for univeristy building, all rights are reserved for her.
+</h2>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alridha)
