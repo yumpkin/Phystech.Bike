@@ -5,9 +5,9 @@
 <img src="gif/tu.gif" alt="Topping up" height="382px">
 </p>
 
-<p>I decided to make a cool bike sharing service for my university, so that the whole process is automated without the human factor being involved, this insures spped, reliability, and also a more enjoyable modern experience in total. After having personal struggles and unpleasant experience each time I rent a bike, I felt that this can be done in a much better way, the project is still in progress, and the content of this repo is not the latest version, this is actually the base draft version, many things have been changed since then.
+<p>I decided to make a cool bike sharing service for my university, so that the whole process is automated without the human factor being involved, this insures spped, reliability, and also a more enjoyable modern experience in total. After having personal struggles and unpleasant experience each time I rent a bike, I felt that this can be done in a much better way, and decided to do it in my own vision. If you have any cool Idea that we could work on, or something you wish to add, would be glad to hear for sure. 
+<br> The project is still in progress, the current content of this repo is actually the first base version, many things have been changed since then.
 <br> I will be revealing everything at once later at the right time, for that stay tuned !
-<br> If you have any cool Idea that we could work on, or something you wish to add, would be glad to hear for sure.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
