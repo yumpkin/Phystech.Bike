@@ -8,10 +8,6 @@
 <p>I decided to make a cool bike sharing service for my university without having people to get involved into the process</p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-<img src="gif/gift.gif" alt="Gifting" height="382px">
-<img src="gif/settings.gif" alt="Setting things up" height="382px">
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-
 <h2> Project Files Description</h2>
 
 <ul>
