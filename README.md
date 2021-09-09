@@ -1,5 +1,5 @@
 <h1 align="center"> Phystech.Bike</h1>
-<h3 align="center"> Cool Bike Sharing service</h3>
+<h3 align="center"> A cool bike sharing service for universities</h3>
 
 <p align="center"> 
 <img src="gif/top_up.gif" alt="Topping up" height="382px">
