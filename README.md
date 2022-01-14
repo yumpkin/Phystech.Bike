@@ -9,9 +9,9 @@
 If you have any cool Idea that we could work on, or something you wish to add, would be glad to hear.
 <br> 
 <br> The project is in progress, the current content of this repo is old, and many things have been changed since then.
-  
+<br> HTML, CSS, and JS files, were not uploaded intentionally.
 <br> I will be revealing everything at once later at the right time, for that stay tuned !
-</p>
+</p> 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 <h2> Project Files Description</h2>
@@ -29,7 +29,7 @@ If you have any cool Idea that we could work on, or something you wish to add, w
 <h2> Credits:</h2>
 <p>
   <br>
-  To my talented architect sister for making the sketch design for univeristy building, in about 30 mins, rights are reserved for her.
+  To my talented architect sister for making the sketch design for univeristy building, in just 30 mins.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
