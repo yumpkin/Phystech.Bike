@@ -29,7 +29,7 @@ If you have any cool Idea that we could work on, or something you wish to add, w
 <h2> Credits:</h2>
 <p>
   <br>
-  
+  To my talented architect sister for making the sketch design for univeristy building, in just 30 mins.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
